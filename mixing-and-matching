@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+
+
+
+    .blk-box {
+        display: inline-block;
+        background-color: #000000;
+        height: 100px;
+        width: 100px;
+        margin-top: 50px;
+        margin-left: 50px;
+       
+    }
+
+    .outside {
+        width:350px;
+        height: 200px;
+    
+    }
+    #red {
+        background-color: red;
+
+    }
+    #blue {
+        background-color: blue; 
+    }
+
+    </style>
+</head>
+
+<body>
+<div id="red" class="outside"> 
+    <div class="blk-box"></div><div class="blk-box"></div>
+</div>
+
+<div id="blue" class="outside">
+    <div class="blk-box"></div><div class="blk-box"></div>
+</div>
+
+</body>
